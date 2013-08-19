@@ -1,0 +1,10 @@
+@charset "utf-8"; 
+
+abbr {
+	speak:spell-out;
+	} 
+
+acronym, dfn {
+	speak:normal;
+	}
+

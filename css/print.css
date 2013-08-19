@@ -1,0 +1,151 @@
+body {
+	margin: 5px;
+        font: 15px Times New Roman, Times, serif;
+	}
+
+
+td, p
+        {
+        color : black;
+        font: 15px Times New Roman, Times, serif;
+        }
+
+.title
+        {
+        color : black;
+        font-size: 12px;
+        font-weight: bold;
+        }
+
+.text
+        {
+        color : black;
+        font: 13px Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+        }
+ 
+.newsDate {
+        color : black;
+        font-size: 10px;
+        font-weight: normal;
+        }
+ 
+.justify {
+        color : black;
+        text-align:justify;
+        font-size:12px;
+        }
+h1
+	{  
+	font-weight :  bold;
+        font: 20px Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+	}
+h2
+	{  
+        font: 18px Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+	font-weight :  bold;
+	}
+h3
+	{  
+        font: 16px Trebuchet MS, Lucida Sans Unicode, Arial, sans-serif;
+	font-weight :  bold;
+	}
+		
+h4
+	{  
+	font-size: 11px;
+	}
+	
+h5 
+	{
+	color: White;
+	font: 11px Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	padding-top: 10px;
+	padding-right: 5px;
+	text-align : right;
+	}
+
+form	
+	{
+	display: none;
+	}
+
+strong
+	{
+	font-weight : bold;
+	}
+
+ul {
+	line-height: 1.3em;
+        list-style-type: square;
+        margin: 0 0 1em 1.5em;
+        padding:0;
+	}
+
+a:link
+	{
+	color : #000000;
+	text-decoration : none;
+	}
+
+a:visited
+	{
+	color : #000000;
+	text-decoration : none;
+	}
+
+a:hover
+	{
+	color : #000000;
+	text-decoration : none;
+	}
+
+div.tright {
+        margin-right: 0em;
+        clear: right;
+        float: right;
+        border-width: 0.5em 0 0.8em 1.4em;
+        }
+
+div.tleft {
+        float: left;
+        margin-right:0.5em;
+        border-width: 0.5em 1.4em 0.8em 0;
+        }
+
+div.thumb {
+        border-style: solid; border-color: White;
+        width: auto;
+        }
+
+div.thumb div {
+        padding: 0;
+        background-color:#eee;
+        font-size: 94%;
+        text-align: center;
+        overflow: hidden;
+        }
+
+div.thumb div a img {
+        border:1px solid #ccc;
+        }
+
+a.print, a.pdf {
+	display: none;
+        }
+
+
+#container {
+	width: 100%;	
+	}
+
+#preamble {
+	margin: 0 2em 0 5em;
+	padding: 0;
+	}
+
+#pageHeader, #quickSummary, #supportingText, #linkList {
+	display: none;
+	}
+
